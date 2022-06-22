@@ -1,0 +1,21 @@
+->Node.js is an open source server environment
+->Node.js is free
+->Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+->Node.js uses JavaScript on the server
+
+
+imp points:
+
+1.To print some thing in console  we use Console.log();
+2.in node js we have to save the file with extension .js
+3.in order to run the program we use "Node space filename" in terminal"
+4.To check the version of npm use "npm -v" and node version to use "node -v"
+5.To install package "npm install package_name"
+6.module->set of individual files that contain reusable code
+7.package_>collection of modules and one package.json file(contains meta data) 
+8.npm->allows you to share your code and update the versons with other developer using npm registry
+9.inorder to create package.json file using command is "npm init --yes"
+10.TO set default values to the json file use command npm set-init keyword name and value(" ")
+11.add package locally use npm install moment (moment is a library)
+12.remove package use npm uninstall moment --save,npm uninstall loadash --save-dev
+13.add package glolbally use npm install moment -g(g for globally)
