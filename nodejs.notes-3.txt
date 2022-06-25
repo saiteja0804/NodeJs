@@ -1,0 +1,23 @@
+
+->client-server
+1.client and server can connect with ip address which is unique
+2.in b/w client and server, socket is responsible to sent which information
+3.http(websites) and ftp(files) are protocols to structure the information
+4.Tcp is protocol to send data from client <->server
+4.server to cilent data is sent in form of small parts(packets)
+
+->create server
+1.include module http, bcaus it has method called createServer()
+2.specify the objs(req,res)in function
+3.specify content type as well as status
+4.finally specify the port no and ip address..to give response
+
+->buffer
+1.To store small amount of data temporarily from one place to another
+->stream
+1.it will store total amount of data at a time..
+  -types:
+         1.readable
+         2.writable:
+         3.duplex:used for both read/write streams
+         4.transform: o/p is evaluated bases on i/o
